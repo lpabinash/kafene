@@ -1,0 +1,43 @@
+body{
+    background-color: #f6f7fb;
+    font-family: 'Poppins', sans-serif;
+}
+.productList-table {
+    width: 70vw;
+    border-collapse: collapse;
+}
+.productList-table td,
+.productList-table th {
+    text-align: left;
+    padding: 17px 24px;
+    font-size: 14px;
+}
+
+.userList-tableRow {
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+}
+.userList-pageWrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+}
+.subWrapper{
+    display:flex;
+    justify-content: space-between;
+}
+.filter{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.filter input{
+    margin-right: 10px;
+}
+.userList-primaryText {
+    color: rgba(0,0,0,.8);
+    font-weight: 500;
+}
+.userList-secondaryText {
+    color: #8c8c8c;
+}
